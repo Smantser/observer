@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/item1"
+            android:title="Выбор новостей"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/news">
+        </item>
+    <!---<item
+        android:id="@+id/item2"
+        android:title="Повернуть экран"
+        android:icon="@android:drawable/ic_menu_always_landscape_portrait">
+    </item>-->
+    <item
+        android:id="@+id/item3"
+        android:title="Настройки">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:title="О программе">
+    </item>
+    <item
+        android:id="@+id/item5"
+        app:showAsAction="ifRoom"
+        android:title="Обновить"
+        android:icon="@android:drawable/ic_menu_rotate">
+    </item>
+</menu>

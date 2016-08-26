@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="1dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="1dp"
+    android:weightSum="1">
+
+    <!--<Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Добавить"
+        android:minWidth="250dp"
+        android:background = "#808080"
+        android:id="@+id/buttonfooter"
+        android:onClick="onclick" />-->
+
+    <ImageButton
+        android:layout_width="253dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButton"
+        android:icon="@drawable/news"
+        android:layout_weight="0.06"
+        android:src="@drawable/arr"
+        android:onClick="onclick" />
+</LinearLayout>
